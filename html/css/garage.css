@@ -14,6 +14,7 @@
     width: 100%;
     text-align: center;
     line-height: 13.5vh;
+    background: rgb(21 167 247 / 75%);
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5vh;
@@ -52,22 +53,21 @@
     position: relative;
     height: 7vh;
     width: 100%;
-    background-color: rgba(23, 23, 23, 90%);
-    border-radius: 1vh;
+    background-color: rgb(23 23 23 / 43%);
+    border-radius: 6vh;
     transition: .08s linear;
     margin-bottom: 1vh;
-    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
 }
 
 .garage-vehicle-firstletter {
     position: relative;
     line-height: 7vh;
     left: 1.2vh;
-    background-color: #ee5253;
+    background-color: #2d86c8;
     padding-top: 1.1vh;
     padding-bottom: 1.1vh;
     padding-left: 1.6vh;
-    padding-right: 1.6vh;
+    padding-right: 1.9vh;
     border-radius: 50%;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -76,7 +76,7 @@
 }
 
 .garage-vehicle:hover {
-    background-color: #dc143c;
+    background-color: #bfbfbf29;
 }
 
 .garage-vehicle-name {
@@ -217,7 +217,7 @@
     transition: .05s linear;
     text-align: center;
     line-height: 5vh;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 1.4vh;
 }
 

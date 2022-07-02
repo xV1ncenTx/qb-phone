@@ -15,9 +15,9 @@
 
 .mail-header {
     display: block;
-    height: 14vh;
+    height: 11.6vh;
     width: 100%;
-    background: rgb(36, 36, 36);
+    background: rgb(182 44 44);
 }
 
 #mail-header-text {
@@ -75,7 +75,7 @@
 }
 
 .mail:hover {
-    background-color: #dc143c;
+    background-color: #bfbfbf29;
     transition: .05s ease-in-out;
 }
 
@@ -147,7 +147,7 @@
 }
 
 .mail-back:hover #mail-back {
-    color: #dc143c;
+    color: #bfbfbf29;
     transition: .05s ease-in-out;
 }
 
@@ -273,8 +273,9 @@
 .advert-header {
     position: absolute;
     width: 100%;
-    height: 10vh;
+    height: 12vh;
     top: 0;
+    background-color: #df7b11;
 }
 
 #advert-header-text {
@@ -310,7 +311,7 @@
 }
 .advert {
     position: relative;
-    background-color: #ff8f1a;
+    background-color: #c2c2c2;
     height: auto;
     min-height: 4vh;
     width: 90%;

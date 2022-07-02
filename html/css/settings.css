@@ -44,7 +44,7 @@
 }
 
 .settings-app-tab:hover {
-    background-color: #dc143c;
+    background-color: #363636;
     transition: .5s ease;
 }
 
@@ -126,18 +126,17 @@
 
 .background-option {
     position: relative;
-    width: 90%;
-    border-radius: 0.15rem;
+    width: 87%;
+    border-radius: 0.45rem;
     height: 6vh;
     margin-bottom: 10px;
     color: white;
     background: rgba(23, 23, 23, 90%);
-    left: 15px;
-    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
+    left: 18.9px;
 }
 
 .background-option:hover {
-    background-color: #dc143c;
+    background-color: #363636;
     transition: .5s ease;
 }
 
@@ -145,16 +144,17 @@
     position: absolute;
     height: 100%;
     width: 6vh;
+    bottom: 5px;
     text-align: center;
     line-height: 7vh;
     font-size: 2.3vh;
-    color: #fbc531;
+    color: #b2b2b2;
 }
 
 .background-option-title {
     position: absolute;
     left: 6vh;
-    top: 1.5vh;
+    top: 1.3vh;
     text-align: center;
     font-size: 1vh;
     color: white;
@@ -165,7 +165,7 @@
 .background-option-description {
     position: absolute;
     left: 6vh;
-    top: 3.6vh;
+    top: 3.2vh;
     text-align: center;
     font-size: 1vh;
     color: white;
@@ -175,11 +175,11 @@
 
 .background-option-current {
     position: absolute;
-    right: 3vh;
-    top: 2.5vh;
+    right: 2vh;
+    top: 1.9vh;
     text-align: center;
-    font-size: 1.6vh;
-    color: green;
+    font-size: 1.8vh;
+    color: #22ab22;
     font-family: 'Poppins', sans-serif;
 }
 
