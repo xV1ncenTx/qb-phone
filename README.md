@@ -36,8 +36,8 @@ Advanced Phone for QB-Core Framework :iphone:
 ![Advert](https://cdn.discordapp.com/attachments/914259977370210415/992598056669294723/unknown.png)
 ![Mail](https://cdn.discordapp.com/attachments/914259977370210415/992598168506224720/unknown.png)
 ![Garage](https://cdn.discordapp.com/attachments/914259977370210415/992597882324660295/unknown.png)
+![Garage-Details](https://cdn.discordapp.com/attachments/914259977370210415/992599034328006726/unknown.png)
 ![Settings](https://cdn.discordapp.com/attachments/914259977370210415/992598259619086426/unknown.png)
-
 ## Features
 - Garages app to see your vehicle details
 - Mails to inform the player
