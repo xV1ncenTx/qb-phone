@@ -118,12 +118,11 @@ body {
 
 /* Phone Container */
 .phone-frame {
-position: absolute;
+    position: absolute;
     width: 30vh;
     bottom: 0;
     right: 0;
-    left: 74%;
-    margin: 3vh;
+    margin: 5vh;
     z-index: 150;
     pointer-events: none;
 }
@@ -145,8 +144,7 @@ position: absolute;
     bottom: 1vh;
     border-radius: 3vh;
     right: 0.5vh;
-    left: 74.4%;
-    margin: 3vh;
+    margin: 5vh;
     overflow: hidden;
     position: absolute;
     background-size: cover;
