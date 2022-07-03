@@ -303,15 +303,15 @@
 
 .phone-contact {
     position: relative;
-    width: 90%;
+    width: 88%;
     color: white;
-    left: 15px;
+    left: 19.8px;
     height: 4.5vh;
     margin-top: 2px;
     margin-bottom: 10px;
     background-color: rgba(23, 23, 23, 90%);
-    border-radius: 0.15rem;
-    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
+    border-radius: 0.75rem;
+    /* box-shadow: 0rem 0rem 0.1rem 0.05rem #000000; */
 }
 
 .phone-contact-firstletter {

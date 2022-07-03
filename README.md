@@ -25,7 +25,7 @@ Advanced Phone for QB-Core Framework :iphone:
 - [qb-crypto](https://github.com/qbcore-framework/qb-crypto) - Crypto currency trading 
 - [qb-lapraces](https://github.com/qbcore-framework/qb-lapraces) - Creating routes and racing 
 - [qb-houses](https://github.com/qbcore-framework/qb-houses) - House and Key Management App
-- [qb-garages](https://github.com/qbcore-framework/qb-garages) - For Garage App
+- [qb-garage](https://github.com/qbcore-framework/qb-garage) - For Garage App
 - [qb-banking](https://github.com/qbcore-framework/qb-banking) - For Banking App
 - [screenshot-basic](https://github.com/citizenfx/screenshot-basic) - For Taking Photos
 - A Webhook for hosting photos (Discord or Imgur can provide this)
@@ -60,7 +60,7 @@ ensure qb-policejob
 ensure qb-crypto
 ensure qb-lapraces
 ensure qb-houses
-ensure qb-garages
+ensure qb-garage
 ensure qb-banking
 ```
 

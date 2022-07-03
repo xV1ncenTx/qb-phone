@@ -118,11 +118,12 @@ body {
 
 /* Phone Container */
 .phone-frame {
-    position: absolute;
+position: absolute;
     width: 30vh;
     bottom: 0;
-    right: -3vh;
-    margin: 2vh;
+    right: 0;
+    left: 74%;
+    margin: 3vh;
     z-index: 150;
     pointer-events: none;
 }
@@ -143,8 +144,9 @@ body {
     width: 29vh;
     bottom: 1vh;
     border-radius: 3vh;
-    right: -2.5vh;
-    margin: 2vh;
+    right: 0.5vh;
+    left: 74.4%;
+    margin: 3vh;
     overflow: hidden;
     position: absolute;
     background-size: cover;
@@ -162,16 +164,16 @@ body {
     width: 100%;
     height: 4vh;
     z-index: 141;
-    position: absolute;
     background: rgb(0 0 0 / 20%);
+    position: absolute;
     color: white;
 }
 
-#phone-time {
-    font-family: 'Arial', sans-serif;
-    font-size: 1.5vh;
-    padding: 1.5vh 0 0 0;
-    margin-left: -65px;
+#phone-server {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 1vh;
+    padding: 2vh 0 0 1vh;
     float: left;
     color: white !important;
 }
@@ -180,15 +182,22 @@ body {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     font-size: 1.2vh;
-    padding: 1.8vh 0 0 6.7vh;
+    padding: 1.8vh 0 0 1vh;
     float: left;
     color: white !important;
 }
 
+#phone-time {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vh;
+    padding: 1.6vh 0 0 2vh;
+    float: left;
+    color: white !important;
+}
 
 #phone-icons {
-    font-size: 1.1vh;
-    padding: 2vh 2vh 0 0vh;
+    font-size: 1vh;
+    padding: 2vh 1.8vh 0 0vh;
     float: right;
     color: white !important;
 }
@@ -243,7 +252,7 @@ body {
 
 .phone-home-button {
     position: relative;
-    height: 0.5vh;
+    height: 0.4vh;
     width: 10vh;
     background-color: white;
     border-radius: 0.8vh;
@@ -260,19 +269,19 @@ body {
     position: relative;
     height: 100%;
     width: 100%;
+    right: 5px;
     background-color: rgba(0, 0, 0, 0.05);
 }
 
 .phone-application {
     position: relative;
     height: 4.8vh;
-    width: 4.8vh;   
-    top: -160px;
-    left: 0.5vh;
+    width: 4.8vh;
+    left: 1vh;
     float: left;
     margin-left: 1.75vh;
     margin-top: 1.5vh;
-    border-radius: 0.8vh;
+    border-radius: 1.25vh;
     text-align: center;
     /* box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.13); */
     opacity: 0.9;
@@ -286,13 +295,13 @@ body {
 .phone-footer-applications {
     position: absolute;
     width: 100%;
-    bottom: -11vh;
+    bottom: 5vh;
 }
 
 .phone-home-applications {
     position: absolute;
     width: 100%;
-    bottom: 17vh;
+    bottom: 33vh;
 }
 
 .phone-application > i {
