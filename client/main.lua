@@ -299,7 +299,7 @@ local function OpenPhone()
                 newPhoneProp()
             end)
 
-            QBCore.Functions.TriggerCallback('qb-garages:server:GetPlayerVehicles', function(vehicles)
+            QBCore.Functions.TriggerCallback('qb-garage:server:GetPlayerVehicles', function(vehicles)
                 PhoneData.GarageVehicles = vehicles
             end)
         else
@@ -861,7 +861,12 @@ end)
 
 RegisterNUICallback('track-vehicle', function(data, cb)
     local veh = data.veh
-    TriggerEvent('qb-garages:client:trackVehicle', veh.plate)
+    if findVehFromPlateAndLocate(veh.plate) then
+        QBCore.Functions.Notify("Your vehicle has been marked", "success")
+    else
+        QBCore.Functions.Notify("This vehicle cannot be located", "error")
+    end
+    cb("ok")
 end)
 
 RegisterNUICallback('DeleteContact', function(data, cb)

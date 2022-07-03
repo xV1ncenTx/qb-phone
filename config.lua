@@ -94,7 +94,7 @@ Config.PhoneApplications = {
         slot = 8,
         Alerts = 0,
     },
-    /*["crypto"] = {
+    ["crypto"] = {
         app = "crypto",
         color = "#004682",
         icon = "fas fa-coins",
@@ -103,7 +103,7 @@ Config.PhoneApplications = {
         blockedjobs = {},
         slot = 15, 
         Alerts = 0,
-    },*/
+    },
     ["racing"] = {
         app = "racing",
         color = "#353b48",
@@ -145,7 +145,7 @@ Config.PhoneApplications = {
         slot = 12,
         Alerts = 0,
     },
-    /*["spotify"] = {
+    --[[ ["spotify"] = {
         app = "spotify",
         color = "#82c91e",
         icon = "fab fa-spotify",
@@ -155,7 +155,7 @@ Config.PhoneApplications = {
         blockedjobs = {},
         slot = 14,
         Alerts = 0,
-    },	*/
+    }, ]]
     ["gallery"] = {
         app = "gallery",
         color = "#AC1D2C",
